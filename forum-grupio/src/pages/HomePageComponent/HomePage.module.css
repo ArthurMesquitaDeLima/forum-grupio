@@ -1,0 +1,33 @@
+
+.forum > span {
+    display: flex;
+    justify-content: center;
+}
+
+.categoryTitle {
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+.title {
+    font-size: var(--font-size-extra-large);
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: var(--bg-color-dark);
+    margin-block: 32px;
+}
+
+.container:nth-child(n) {
+    border: solid 1px var(--bg-color-light);
+}
+
+@media (min-width: 650px) {
+    .forum {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+}
